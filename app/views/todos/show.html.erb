@@ -1,0 +1,10 @@
+<div class="itembox">
+  <p class="due_date"> Due Date: <%= @todo.due_date %></p>
+  <p class="title"> Task: <%= @todo.title %></p>
+  <P> Note: <%= simple_format(@todo.description) %></P>
+
+  <div class= "itembox_btn">
+    <%= link_to 'Edit', edit_todo_path(@todo), class: 'btn btn-warning'  %>
+    <%= link_to 'Back to index', todos_path, class: 'btn btn-primary' %>
+  </div>
+</div>

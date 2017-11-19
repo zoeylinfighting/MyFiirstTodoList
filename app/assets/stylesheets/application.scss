@@ -1,0 +1,85 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  width: 85%;
+  background-color: #009FCC;
+  border: dotted 2px #888888;
+  margin: 50px auto 20px 80px;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  width: 80%;
+  font-size: 20px;
+
+}
+
+.listbox {
+  border: dotted 3px #009FCC;
+  border-radius: 20px;
+  width: 80%;
+
+  margin: 100px auto;
+  posotion: relative;
+
+  text-align: center;
+}
+
+.list {
+  margin: 40px 80px;
+
+}
+
+.due_date {
+  background-color: #33CCFF;
+  font-size: 20px;
+  width: 80%;
+  text-align: center;
+  margin: auto auto auto 60px;
+}
+
+.title {
+  margin: 5px 70px 10px 60px;
+  font-size: 25px;
+}
+
+.functionbar {
+  margin: auto 80px 10px 70px;
+}
+
+.itembox {
+  width: 30%;
+  
+  margin: 20px 460px;
+  font-size: 30px;
+ }
+
+ .addbtn {
+  margin: 20px;
+ }
+
+.errormsg {
+  width: 400px;
+  height: 150px;
+  margin: 20px auto;
+  text-align: center;
+  color: red;
+
+}
+
+.flashmsg {
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+  margin: 20px auto 10px 90px;
+}
+
+.itembox_btn {
+  margin: 10px;
+}

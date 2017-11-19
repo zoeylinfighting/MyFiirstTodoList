@@ -1,0 +1,23 @@
+
+  <div class= "listbox">
+    <h1> My Todo List</h1>
+
+      <div class ="list">
+        <ul>
+          <% @todos.each do |todo| %>
+            <li>
+              <p class="due_date"> Due date : <%= todo.due_date %></p>
+              <p class="title"> Task : <%= todo.title %></p>
+              <p class="functionbar"><%= link_to 'Detail', todo_path(todo) %>
+              <%= link_to 'Edit', edit_todo_path(todo) %>
+              <%= link_to 'Delete', todo_path(todo), method: :delete, data:{ confirm: "Are you  sureeeee?"} %></p>       
+            </li>
+          <% end %>  
+        </rl>
+      </div>
+
+      <div class="addbtn">
+        <%= link_to 'ADD LIST', new_todo_path, class: 'btn btn-success'%>
+      </div>
+  </div>
+
